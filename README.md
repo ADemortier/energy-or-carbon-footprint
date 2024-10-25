@@ -15,11 +15,13 @@ Nous allons voir deux méthodes :
 GreenAlgorithm (Lannelongue et al. (2021)) est un outil permettant le calcul de la consommation électrique et de son équivalent carbone d'une simulation numérique.
 
 - Suivre l'installation depuis GIT : https://www.green-algorithms.org/GA4HPC/install
-    --> Si cela ne fonctionne pas : télécharger en local et transférer sur belenos.
+    → Si cela ne fonctionne pas : télécharger en local et transférer sur belenos.
 - Télécharger le fichier des paramètres de Belenos (n'hésitez pas à en prendre connaissance) : cluster_info.yaml
-    --> Si votre version de python < 3.7 (python --version) : creer un environnement virtuel avec conda.
-- Lancer le script : myCarbonFootprint.sh 
-    --> Si cela ne fonctionne pas, lancer directement GreenAlgorithms_global.py.
+    → Si votre version de python < 3.7 (python --version) : creer un environnement virtuel avec conda.
+```sh
+   myCarbonFootprint.sh
+```
+    → Si cela ne fonctionne pas, lancer directement GreenAlgorithms_global.py.
 
 
 Remarques :

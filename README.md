@@ -42,8 +42,9 @@ Remarques :
 2) Concaténer les temps de calcul et consommations :
 
 - Se placer dans le dossier contenant l'expérience/les jobs (ex : ~/xpout/GXXX)
-- Lancer la commande : ./grep_tei_kwh.sh NameXP
-
+```sh
+   ./grep_tei_kwh.sh NameXP
+```
 → Les résultats se situent dans le dossier ~/EcoStats
 
 

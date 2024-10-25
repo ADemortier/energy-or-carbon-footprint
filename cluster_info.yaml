@@ -1,0 +1,68 @@
+##
+## ~~~ TO BE EDITED TO BE TAILORED TO THE CLUSTER ~~~
+## Fill in the values for your cluster
+##
+---
+cluster_name: "Belenos" # [str]
+granularity_memory_request: 6 # [number] in GB,
+partitions: # a list of the different partitions on the cluster
+  login:  # name of the partition
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  transfert:  # name of the partition
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  normal256:
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  huge512:
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  ibcell0:
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  ibcell1:
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  ibcell2:
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  ibcell3:
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  ibcell4:
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  ibcell5:
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  ibcell6:
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  ibcell7:
+    type: CPU # [CPU or GPU]
+    model: "Intel XXX" # [str] the model of the processing core on this partition
+    TDP: 3.5 # [number] TDP of the processor, in W, per core
+  partition_2:
+    type: GPU
+    model: "NVIDIA XXXX"
+    TDP: 250 # For GPUs, the TDP is for the entire GPU
+    model_CPU: "Intel XXX" # from HPC team
+    TDP_CPU: 8
+PUE: 1.18 # [number > 1] Power Usage Effectiveness of the facility
+CI: 38.95 # [number] carbon intensity of the geographic location, in gCO2e/kWh
+#
+# Below are optional parameters to accommodate some clusters. Do not remove but can be ignored.
+#
+default_unit_RSS: 'K'

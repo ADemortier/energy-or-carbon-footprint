@@ -15,9 +15,14 @@ Nous allons voir deux méthodes :
 GreenAlgorithm (Lannelongue et al. (2021)) est un outil permettant le calcul de la consommation électrique et de son équivalent carbone d'une simulation numérique.
 
 - Suivre l'installation depuis GIT : https://www.green-algorithms.org/GA4HPC/install
+  
     → Si cela ne fonctionne pas : télécharger en local et transférer sur belenos.
+  
 - Télécharger le fichier des paramètres de Belenos (n'hésitez pas à en prendre connaissance) : cluster_info.yaml
+  
     → Si votre version de python < 3.7 (python --version) : creer un environnement virtuel avec conda.
+
+- Lancer l'outil :
 ```sh
    myCarbonFootprint.sh
 ```
@@ -43,19 +48,23 @@ Remarques :
 
 
 2) Concaténer les temps de calcul et consommations :
-
-- Se placer dans le dossier contenant l'expérience/les jobs (ex : ~/xpout/GXXX)
 ```sh
+   mv ~/Path/to/NameXP
    ./grep_tei_kwh.sh NameXP
 ```
 → Les résultats se situent dans le dossier ~/EcoStats
 
 
-3) Au besoin, on peut concaténer les sorties dans ~/EcoStats
- ```py
+3) Au besoin, on peut concaténer les sorties 
+ ```sh
+   cd ~/EcoStats
    python3 tei_kwh_prepare.py NameXP_tei.txt; python3 tei_kwh_prepare.py NameXP_kwh.txt
  ```
-NB : pour lire des fichiers ".pkl" sous python, on peut utiliser pandas : df = pd.read_pickle('main_kwh_NameXP_kwh.pkl')
+NB : pour lire des fichiers ".pkl" sous python, on peut utiliser pandas :
+ ```py
+   df = pd.read_pickle('main_kwh_NameXP_kwh.pkl')
+ ```
+
 
 ## Remerciements
 Les codes de récupération ont été développés par Ghislain Faure.

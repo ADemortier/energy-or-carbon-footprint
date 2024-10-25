@@ -49,10 +49,8 @@ Remarques :
 
 3) Au besoin, on peut concaténer les sorties dans ~/EcoStats
  ```py
-   git clone https://github.com/github_username/repo_name.git
-   ```
-Lancer : python3 tei_kwh_prepare.py NameXP_tei.txt; python3 tei_kwh_prepare.py NameXP_kwh.txt
-
+   python3 tei_kwh_prepare.py NameXP_tei.txt; python3 tei_kwh_prepare.py NameXP_kwh.txt
+ ```
 NB : pour lire des fichiers ".pkl" sous python, on peut utiliser pandas : df = pd.read_pickle('main_kwh_NameXP_kwh.pkl')
 
 ## Remerciements

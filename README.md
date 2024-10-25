@@ -21,7 +21,8 @@ GreenAlgorithm (Lannelongue et al. (2021)) est un outil permettant le calcul de 
 ```sh
    myCarbonFootprint.sh
 ```
-    → Si cela ne fonctionne pas, lancer directement GreenAlgorithms_global.py.
+
+→ Si cela ne fonctionne pas, lancer directement GreenAlgorithms_global.py.
 
 
 Remarques :

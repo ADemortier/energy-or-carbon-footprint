@@ -5,6 +5,7 @@
 ## Getting started
 
 Comment calculer sa consommation énergétique et carbone à partir de sorties HPC ?
+
 Nous allons voir deux méthodes :
 - Avec GreenAlgorithm : permet une estimation grâce aux paramètres du HPC
 - A la main, en additionnant la consommation de chacun des jobs (mesure logicielle)

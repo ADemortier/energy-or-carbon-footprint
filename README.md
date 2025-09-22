@@ -49,7 +49,7 @@ Remarques :
 
 2) Concaténer les temps de calcul et consommations :
 ```sh
-   mv ~/Path/to/NameXP
+   cd ~/Path/to/NameXP
    ./grep_tei_kwh.sh NameXP
 ```
 → Les résultats se situent dans le dossier ~/EcoStats

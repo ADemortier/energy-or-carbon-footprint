@@ -34,7 +34,7 @@ Remarques :
 
 - Les données sont calculées sur les simulations réalisées depuis le début de l'année calendaire.
 - L'outil vous informe du TEI consommé (en jours) → Consommation énergétique (kWh) → Empreinte carbone (gCO2eq).
-- Il est très important d'aller vérifier l'ordre de grandeur obtenu. Une possibilité :  obtenir le TEI de l'année par une commande de SLURM (/opt/softs/bin/sccompta -p USER). Faire la somme des TEI (Kh) et ramener en jours. Comparer.
+- Il est très important d'aller vérifier l'ordre de grandeur obtenu. Une possibilité :  obtenir le TEI de l'année par une commande de SLURM (/opt/softs/bin/sccompta -u USER). Faire la somme des TEI (Kh) et ramener en jours. Comparer.
 
 
 ## A la main : Récupérer le temps de calcul et la consommation de ses jobs
